@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6116384602006649312}
   - component: {fileID: 6116384602006649319}
   - component: {fileID: 6116384602006649318}
+  - component: {fileID: -5901631305667403530}
   m_Layer: 0
   m_Name: SpawingObject
   m_TagString: Untagged
@@ -110,3 +111,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0b0a8e29deb51e49ae3560aa695c8c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-5901631305667403530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116384602006649317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca88d838b2e0fa644aa2529488560306, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  destroyEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6116384602006649317}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

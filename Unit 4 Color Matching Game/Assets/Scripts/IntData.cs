@@ -4,5 +4,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/IntData", order = 3)]
 public class IntData : ScriptableObject
 {
-    
+  
 }
