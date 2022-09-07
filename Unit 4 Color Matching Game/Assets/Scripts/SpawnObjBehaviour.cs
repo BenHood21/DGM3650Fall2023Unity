@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using UnityEngine;
 
 public class SpawnObjBehaviour : MonoBehaviour
@@ -9,7 +10,7 @@ public class SpawnObjBehaviour : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.C))
+     //   if (number = true)
         {
             // Pick a random, saturated and not-too-dark color
             GetComponent<Renderer>().material.color = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
@@ -28,5 +29,7 @@ public class SpawnObjBehaviour : MonoBehaviour
         Destroy(m_Material);
         //Output the amount of materials to show if the instance was deleted
         print("Materials " + Resources.FindObjectsOfTypeAll(typeof(Material)).Length);
+    
     }
 }
+

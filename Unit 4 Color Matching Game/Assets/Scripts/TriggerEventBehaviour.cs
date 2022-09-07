@@ -15,4 +15,5 @@ public class TriggerEventBehaviour : MonoBehaviour
     {
         destroyEvent.Invoke();
     }
+    
 }
