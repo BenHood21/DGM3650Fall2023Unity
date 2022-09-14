@@ -6,6 +6,7 @@ public class MatchBehaviour : MonoBehaviour
 {
    public ID idObj;
    public UnityEvent matchEvent, noMatchEvent, noMatchDelayEvent;
+   private SpriteRenderer rend;
 
    private IEnumerator OnTriggerEnter(Collider other)
    {
@@ -18,6 +19,8 @@ public class MatchBehaviour : MonoBehaviour
        {
            matchEvent.Invoke();
            Debug.Log("match");
+           rend = GetComponent<SpriteRenderer>();
+           rend.enabled = false;
        }
        else
        {
