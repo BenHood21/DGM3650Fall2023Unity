@@ -42,6 +42,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ColorIDDataList.cs" />
+     <Compile Include="Assets\Scripts\ColorMatchBehaviour.cs" />
      <Compile Include="Assets\Scripts\MatchBehaviour.cs" />
      <Compile Include="Assets\Scripts\IntData.cs" />
      <Compile Include="Assets\Scripts\FloatData.cs" />
@@ -59,7 +60,6 @@
      <Compile Include="Assets\Scripts\SpriteBehaviour.cs" />
      <Compile Include="Assets\Scripts\Instancer.cs" />
      <Compile Include="Assets\Scripts\ColorIDBehaviour.cs" />
-     <Compile Include="Assets\Scripts\ColorMatchBehaviour.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/2021.1.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
