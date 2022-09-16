@@ -11,7 +11,7 @@ public class ColorIDDataList : ScriptableObject
 
    public void SetCurrentColorRandomly()
    {
-      num = colorIDList.Count-2;
+      num = Random.Range(0, colorIDList.Count);
       currentColor = colorIDList[num];
    }
 }
